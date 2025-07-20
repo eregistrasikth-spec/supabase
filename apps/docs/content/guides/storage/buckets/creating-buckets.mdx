@@ -24,7 +24,7 @@ const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_KE
 // ---cut---
 // Use the JS library to create a bucket.
 
-const { data, error } = await supabase.storage.createBucket('avatars', {
+const { data, error } = await supabase.storage.createBucket('dokumen', {
   public: true, // default: false
 })
 ```
